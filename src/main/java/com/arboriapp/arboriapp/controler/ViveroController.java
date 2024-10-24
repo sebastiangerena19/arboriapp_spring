@@ -28,7 +28,7 @@ public class ViveroController {
         repositorio.save(newVivero);
 
 
-        return ResponseEntity.ok(especieVivero, "Vivero creado con id " + id);
+        return ResponseEntity.ok(especieVivero);
     }
 
     @PostMapping("/{id}/definirPrecioEspecie")
