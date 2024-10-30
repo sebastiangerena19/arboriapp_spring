@@ -1,6 +1,5 @@
-package com.arboriapp.arboriapp.controler;
+package com.arboriapp.arboriapp.controller;
 
-import jdk.jfr.Name;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,7 +8,7 @@ import java.util.Random;
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = "http://localhost:4200")
-public class ArboriApi {
+public class ArboriApiController {
 
     @PostMapping("/value")
     @CrossOrigin(origins = "http://localhost:4200")

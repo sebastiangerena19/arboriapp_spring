@@ -1,8 +1,7 @@
-package com.arboriapp.arboriapp.controler;
+package com.arboriapp.arboriapp.controller;
 
-import com.arboriapp.arboriapp.entidades.EspecieVivero;
-import com.arboriapp.arboriapp.entidades.Vivero;
-import com.arboriapp.arboriapp.repositorio.EspecieViveroRepository;
+import com.arboriapp.arboriapp.entities.EspecieVivero;
+import com.arboriapp.arboriapp.repository.EspecieViveroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;

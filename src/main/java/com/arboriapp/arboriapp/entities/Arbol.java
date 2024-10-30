@@ -1,29 +1,23 @@
-package com.arboriapp.arboriapp.entidades;
+package com.arboriapp.arboriapp.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.Data;
 
 @Entity
-@Data
-public class EspecieVivero {
+public class Arbol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idVivero;
+    private Long id;
+
     private String especie;
-    private double precio;
     private double altura;
-    private double DAP;
-    private double anchoDeCopa;
-    private int edadEnAnios;
+    private double DAP; // Diámetro a la altura del pecho
+    private double precioEspecie;
+    private double valorEconomico;
 
     public void definirEspecie() {
-        // Lógica
-    }
-
-    public void definirPrecio() {
         // Lógica
     }
 
@@ -35,11 +29,11 @@ public class EspecieVivero {
         // Lógica
     }
 
-    public void definirAnchoDeCopa() {
+    public void definirPrecio() {
         // Lógica
     }
 
-    public void definirEdadEnAnios() {
+    public void definirValorEconomico() {
         // Lógica
     }
 

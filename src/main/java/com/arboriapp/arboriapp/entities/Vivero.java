@@ -1,4 +1,4 @@
-package com.arboriapp.arboriapp.entidades;
+package com.arboriapp.arboriapp.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

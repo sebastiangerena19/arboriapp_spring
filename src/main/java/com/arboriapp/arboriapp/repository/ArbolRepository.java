@@ -1,6 +1,6 @@
-package com.arboriapp.arboriapp.repositorio;
+package com.arboriapp.arboriapp.repository;
 
-import com.arboriapp.arboriapp.entidades.Arbol;
+import com.arboriapp.arboriapp.entities.Arbol;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ArbolRepository extends JpaRepository<Arbol, Long> {}
