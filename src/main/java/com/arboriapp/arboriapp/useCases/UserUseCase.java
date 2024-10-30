@@ -30,8 +30,6 @@ public class UserUseCase {
         }else{
             return MessageUtil.EXISTING_USER;
         }
-
-
     }
 
     public Optional<UserDTO> getUser(String id) {
